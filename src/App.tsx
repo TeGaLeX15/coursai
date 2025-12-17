@@ -1,5 +1,6 @@
 import { Background } from "./components/Background";
-import Gradient from "./components/Gradient/Gradient";
+import CardSection from "./components/CardSection/CardSection";
+import HeroGradient from "./components/Gradient/HeroGradient";
 import Header from "./components/Header";
 import { Hero } from './components/Hero';
 
@@ -9,7 +10,8 @@ export default function App() {
       <Header />
       <Background />
       <Hero />
-      <Gradient />
+      <HeroGradient />
+      <CardSection />
     </div>
   );
 }
