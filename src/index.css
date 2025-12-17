@@ -1,7 +1,39 @@
 @import "tailwindcss";
 
+/* DINPro Regular */
+@font-face {
+  font-family: 'DINPro';
+  src: url('/fonts/DINPro/dinpro.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* DINPro Bold */
+@font-face {
+  font-family: 'DINPro';
+  src: url('/fonts/DINPro/dinpro_bold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* DINPro Light */
+@font-face {
+  font-family: 'DINPro';
+  src: url('/fonts/DINPro/dinpro_light.otf') format('opentype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+/* DINPro Medium */
+@font-face {
+  font-family: 'DINPro';
+  src: url('/fonts/DINPro/dinpro_medium.otf') format('opentype');
+  font-weight: 500;
+  font-style: normal;
+}
+
 :root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: 'Times New Roman', Times, serif;
   line-height: 1.5;
   font-weight: 400;
 
@@ -13,6 +45,29 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-family: 'DINPro', sans-serif;
+  font-weight: 400;
+}
+
+h1 {
+  font-family: 'DINPro', sans-serif;
+  font-weight: 700;
+}
+
+h2 {
+  font-family: 'DINPro', sans-serif;
+  font-weight: 600;
+}
+
+p.light {
+  font-weight: 300;
+}
+
+p.italic {
+  font-style: italic;
 }
 
 a {
