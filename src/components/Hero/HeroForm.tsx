@@ -1,4 +1,4 @@
-import { heroFormSchema, type HeroFormData } from "../Schemas/heroForm.schema";
+import { heroFormSchema, type HeroFormData } from "../../schemas/heroForm.schema";
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { FormField } from "./FormField";

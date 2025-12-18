@@ -11,7 +11,8 @@ const HeroGradient: React.FC<GradientProps> = ({ className }) => {
       style={{
         height: "160%",
         top: "-15%",
-        backgroundImage: "radial-gradient(circle 41rem at right, #2441FF, transparent)",
+        backgroundImage:
+          "radial-gradient(circle 41rem at right, #2441FF, transparent)",
       }}
     />
   );

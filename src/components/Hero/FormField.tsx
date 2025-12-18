@@ -1,6 +1,6 @@
 import React from "react";
 import type { UseFormRegister, FieldErrors } from "react-hook-form";
-import type { HeroFormData } from "../Schemas/heroForm.schema";
+import type { HeroFormData } from "../../schemas/heroForm.schema";
 import { AnimatePresence, motion } from "framer-motion";
 
 interface FormFieldProps {

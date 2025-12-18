@@ -1,4 +1,3 @@
-// src/data.ts
 export interface Tag {
   icon: string;
   text: string;

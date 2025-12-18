@@ -11,7 +11,8 @@ const SectionGradient: React.FC<GradientProps> = ({ className = "" }) => {
       style={{
         top: "-20%",
         height: "136%",
-        backgroundImage: "radial-gradient(ellipse 300% 49% at center, #2441FF 40%, transparent)",
+        backgroundImage:
+          "radial-gradient(ellipse 300% 49% at center, #2441FF 40%, transparent)",
       }}
     />
   );
