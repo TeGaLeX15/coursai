@@ -1,4 +1,4 @@
-import { heroTags } from "../../data/data";
+import { heroTags } from "../../data/tags";
 import TagIcon from "../UI/TagIcon";
 
 export default function HeroText() {
