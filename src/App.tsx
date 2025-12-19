@@ -1,3 +1,4 @@
+import { AiCoursesSection } from "./components/AiCoursesSection/AiCoursesSection";
 import { Background } from "./components/Background";
 import CardSection from "./components/CardSection/CardSection";
 import HeroGradient from "./components/Gradient/HeroGradient";
@@ -12,6 +13,7 @@ export default function App() {
       <Hero />
       <HeroGradient />
       <CardSection />
+      <AiCoursesSection />
     </div>
   );
 }

@@ -87,6 +87,10 @@ a:hover {
   .card-section-content {
     @apply grid grid-cols-2 gap-8 max-w-300 w-full px-4 relative z-10;
   }
+
+  .ai-courses-section {
+    @apply w-full max-w-300 px-4 gap-12 relative z-20;
+  }
 }
 
 @media (prefers-color-scheme: light) {
